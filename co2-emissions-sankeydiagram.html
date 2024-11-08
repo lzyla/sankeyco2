@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.3">
+  <style type="text/css">
+    body {background-color: #ececec}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #c58853; -webkit-text-stroke: #c58853; background-color: #1e2127}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #9ba2b1; -webkit-text-stroke: #9ba2b1; background-color: #1e2127}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #88b966; -webkit-text-stroke: #88b966; background-color: #1e2127}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #9ba2b1; -webkit-text-stroke: #9ba2b1; background-color: #1e2127; min-height: 16.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #d65562; -webkit-text-stroke: #d65562; background-color: #1e2127}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #519deb; -webkit-text-stroke: #519deb; background-color: #1e2127}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4a505d; -webkit-text-stroke: #4a505d; background-color: #1e2127}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #b85dd5; -webkit-text-stroke: #b85dd5; background-color: #1e2127}
+    span.s1 {font-kerning: none; color: #519deb; -webkit-text-stroke: 0px #519deb; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s2 {font-kerning: none; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s3 {font-kerning: none; color: #9ba2b1; -webkit-text-stroke: 0px #9ba2b1; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s4 {font-kerning: none; color: #c58853; -webkit-text-stroke: 0px #c58853; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s5 {font-kerning: none; color: #d65562; -webkit-text-stroke: 0px #d65562; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s6 {font-kerning: none; color: #b85dd5; -webkit-text-stroke: 0px #b85dd5; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+    span.s7 {font-kerning: none; color: #88b966; -webkit-text-stroke: 0px #88b966; text-shadow: 0.0px 1.0px 0.0px rgba(255, 255, 255, 0)}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!</span><span class="s2">DOCTYPE</span><span class="s3"> html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">head</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">title</span><span class="s1">&gt;</span><span class="s4">CO2</span><span class="s2"> Emissions Sankey Diagram</span><span class="s1">&lt;/</span><span class="s2">title</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s3">script src</span><span class="s1">=</span><span class="s2">"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"</span><span class="s1">&gt;&lt;/</span><span class="s3">script</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">style</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>body {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s5">margin</span><span class="s1">:</span><span class="s2"> </span><span class="s4">0</span><span class="s2">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s5">padding</span><span class="s1">:</span><span class="s2"> </span><span class="s4">0</span><span class="s2">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s5">display</span><span class="s1">:</span><span class="s2"> flex;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>justify</span><span class="s1">-</span><span class="s2">content</span><span class="s1">:</span><span class="s2"> center;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>align</span><span class="s1">-</span><span class="s2">items</span><span class="s1">:</span><span class="s2"> center;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s5">height</span><span class="s1">:</span><span class="s2"> 100vh;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>background</span><span class="s1">-</span><span class="s2">color</span><span class="s1">:</span><span class="s2"> #f0f0f0;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/</span><span class="s2">style</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">head</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">body</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s3">div id</span><span class="s1">=</span><span class="s2">"sketch-container"</span><span class="s1">&gt;&lt;/</span><span class="s3">div</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">let</span><span class="s2"> emissionData </span><span class="s1">=</span><span class="s2"> [</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span>{ </span><span class="s2">country</span><span class="s1">:</span><span class="s3"> </span><span class="s7">'Chiny'</span><span class="s3">, </span><span class="s2">totalEmissions</span><span class="s1">:</span><span class="s3"> </span><span class="s4">10000</span><span class="s3">, </span><span class="s2">emissionsPerCapita</span><span class="s1">:</span><span class="s3"> </span><span class="s4">7.2</span><span class="s3">, </span><span class="s2">emissionsPerGDP</span><span class="s1">:</span><span class="s3"> </span><span class="s4">0.5</span><span class="s3"> },</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span>{ </span><span class="s2">country</span><span class="s1">:</span><span class="s3"> </span><span class="s7">'USA'</span><span class="s3">, </span><span class="s2">totalEmissions</span><span class="s1">:</span><span class="s3"> </span><span class="s4">5000</span><span class="s3">, </span><span class="s2">emissionsPerCapita</span><span class="s1">:</span><span class="s3"> </span><span class="s4">15.2</span><span class="s3">, </span><span class="s2">emissionsPerGDP</span><span class="s1">:</span><span class="s3"> </span><span class="s4">0.3</span><span class="s3"> },</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span>{ </span><span class="s2">country</span><span class="s1">:</span><span class="s3"> </span><span class="s7">'Indie'</span><span class="s3">, </span><span class="s2">totalEmissions</span><span class="s1">:</span><span class="s3"> </span><span class="s4">2500</span><span class="s3">, </span><span class="s2">emissionsPerCapita</span><span class="s1">:</span><span class="s3"> </span><span class="s4">1.8</span><span class="s3">, </span><span class="s2">emissionsPerGDP</span><span class="s1">:</span><span class="s3"> </span><span class="s4">0.7</span><span class="s3"> },</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span>{ </span><span class="s2">country</span><span class="s1">:</span><span class="s3"> </span><span class="s7">'Rosja'</span><span class="s3">, </span><span class="s2">totalEmissions</span><span class="s1">:</span><span class="s3"> </span><span class="s4">1800</span><span class="s3">, </span><span class="s2">emissionsPerCapita</span><span class="s1">:</span><span class="s3"> </span><span class="s4">12.5</span><span class="s3">, </span><span class="s2">emissionsPerGDP</span><span class="s1">:</span><span class="s3"> </span><span class="s4">0.4</span><span class="s3"> },</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span>{ </span><span class="s2">country</span><span class="s1">:</span><span class="s3"> </span><span class="s7">'Japonia'</span><span class="s3">, </span><span class="s2">totalEmissions</span><span class="s1">:</span><span class="s3"> </span><span class="s4">1200</span><span class="s3">, </span><span class="s2">emissionsPerCapita</span><span class="s1">:</span><span class="s3"> </span><span class="s4">9.4</span><span class="s3">, </span><span class="s2">emissionsPerGDP</span><span class="s1">:</span><span class="s3"> </span><span class="s4">0.2</span><span class="s3"> }</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>];</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">let</span><span class="s2"> sankeyWidth, sankeyHeight;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">let</span><span class="s2"> nodes </span><span class="s1">=</span><span class="s2"> [];</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">let</span><span class="s2"> links </span><span class="s1">=</span><span class="s2"> [];</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s2"> </span><span class="s1">setup</span><span class="s2">() {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">const</span><span class="s2"> canvas </span><span class="s1">=</span><span class="s2"> </span><span class="s1">createCanvas</span><span class="s2">(</span><span class="s4">800</span><span class="s2">, </span><span class="s4">600</span><span class="s2">);</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">      </span>canvas.</span><span class="s1">parent</span><span class="s3">(</span><span class="s2">'sketch-container'</span><span class="s3">);</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">calculateSankeyElements</span><span class="s3">();</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>sankeyWidth </span><span class="s1">=</span><span class="s2"> width </span><span class="s1">*</span><span class="s2"> </span><span class="s4">0.8</span><span class="s2">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>sankeyHeight </span><span class="s1">=</span><span class="s2"> height </span><span class="s1">*</span><span class="s2"> </span><span class="s4">0.8</span><span class="s2">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s2"> </span><span class="s1">draw</span><span class="s2">() {</span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">background</span><span class="s3">(</span><span class="s4">240</span><span class="s3">);</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">drawSankeyDiagram</span><span class="s3">();</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">handleMouseInteraction</span><span class="s3">();</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s3"> </span><span class="s2">calculateSankeyElements</span><span class="s3">() {</span></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2"><i>// Obliczanie szerokości węzłów i grubości połączeń</i><i></i></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">const</span><span class="s2"> totalEmissions </span><span class="s1">=</span><span class="s2"> emissionData.</span><span class="s1">reduce</span><span class="s2">((sum, item) </span><span class="s1">=&gt;</span><span class="s2"> sum </span><span class="s1">+</span><span class="s2"> item.totalEmissions, </span><span class="s4">0</span><span class="s2">);</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>nodes </span><span class="s1">=</span><span class="s2"> emissionData.</span><span class="s1">map</span><span class="s2">((item, index) </span><span class="s1">=&gt;</span><span class="s2"> ({</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">x</span><span class="s1">:</span><span class="s2"> </span><span class="s4">100</span><span class="s2"> </span><span class="s1">+</span><span class="s2"> index </span><span class="s1">*</span><span class="s2"> (sankeyWidth </span><span class="s1">-</span><span class="s2"> </span><span class="s4">200</span><span class="s2">) </span><span class="s1">/</span><span class="s2"> (emissionData.length </span><span class="s1">-</span><span class="s2"> </span><span class="s4">1</span><span class="s2">),</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">y</span><span class="s1">:</span><span class="s2"> sankeyHeight </span><span class="s1">/</span><span class="s2"> </span><span class="s4">2</span><span class="s2">,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">width</span><span class="s1">:</span><span class="s2"> </span><span class="s4">80</span><span class="s2">,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">height</span><span class="s1">:</span><span class="s2"> item.totalEmissions </span><span class="s1">/</span><span class="s2"> totalEmissions </span><span class="s1">*</span><span class="s2"> sankeyHeight </span><span class="s1">*</span><span class="s2"> </span><span class="s4">0.8</span><span class="s2">,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">country</span><span class="s1">:</span><span class="s2"> item.country,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">totalEmissions</span><span class="s1">:</span><span class="s2"> item.totalEmissions,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">emissionsPerCapita</span><span class="s1">:</span><span class="s2"> item.emissionsPerCapita,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">emissionsPerGDP</span><span class="s1">:</span><span class="s2"> item.emissionsPerGDP</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}));</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>links </span><span class="s1">=</span><span class="s2"> emissionData.</span><span class="s1">flatMap</span><span class="s2">((item, index) </span><span class="s1">=&gt;</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s6">const</span><span class="s2"> linkWidth </span><span class="s1">=</span><span class="s2"> item.totalEmissions </span><span class="s1">/</span><span class="s2"> totalEmissions </span><span class="s1">*</span><span class="s2"> sankeyHeight </span><span class="s1">*</span><span class="s2"> </span><span class="s4">0.8</span><span class="s2">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s6">return</span><span class="s2"> index </span><span class="s1">&gt;</span><span class="s2"> </span><span class="s4">0</span><span class="s2"> </span><span class="s1">?</span><span class="s2"> [</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>{<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s5">source</span><span class="s1">:</span><span class="s2"> nodes[index </span><span class="s1">-</span><span class="s2"> </span><span class="s4">1</span><span class="s2">],</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s5">target</span><span class="s1">:</span><span class="s2"> nodes[index],</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s5">value</span><span class="s1">:</span><span class="s2"> linkWidth</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span>] </span><span class="s1">:</span><span class="s2"> [];</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s3"> </span><span class="s2">drawSankeyDiagram</span><span class="s3">() {</span></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2"><i>// Rysowanie połączeń</i><i></i></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">stroke</span><span class="s2">(</span><span class="s4">150</span><span class="s2">);</span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">strokeWeight</span><span class="s3">(</span><span class="s4">2</span><span class="s3">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">for</span><span class="s2"> (</span><span class="s6">const</span><span class="s2"> link </span><span class="s6">of</span><span class="s2"> links) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">line</span><span class="s2">(</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>link.source.x </span><span class="s1">+</span><span class="s2"> link.source.width,<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>link.source.y </span><span class="s1">+</span><span class="s2"> link.source.height </span><span class="s1">/</span><span class="s2"> </span><span class="s4">2</span><span class="s2">,</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>link.target.x,<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>link.target.y </span><span class="s1">+</span><span class="s2"> link.target.height </span><span class="s1">/</span><span class="s2"> </span><span class="s4">2</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2"><i>// Rysowanie węzłów</i><i></i></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">noStroke</span><span class="s2">();</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">for</span><span class="s2"> (</span><span class="s6">const</span><span class="s2"> node </span><span class="s6">of</span><span class="s2"> nodes) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s6">const</span><span class="s2"> color </span><span class="s1">=</span><span class="s2"> </span><span class="s1">lerpColor</span><span class="s2">(</span><span class="s1">color</span><span class="s2">(</span><span class="s4">0</span><span class="s2">, </span><span class="s4">255</span><span class="s2">, </span><span class="s4">0</span><span class="s2">), </span><span class="s1">color</span><span class="s2">(</span><span class="s4">255</span><span class="s2">, </span><span class="s4">0</span><span class="s2">, </span><span class="s4">0</span><span class="s2">), node.totalEmissions </span><span class="s1">/</span><span class="s2"> emissionData[emissionData.length </span><span class="s1">-</span><span class="s2"> </span><span class="s4">1</span><span class="s2">].totalEmissions);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">fill</span><span class="s2">(color);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">rect</span><span class="s2">(node.x, node.y, node.width, node.height);</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">        </span></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">fill</span><span class="s2">(</span><span class="s4">0</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">textAlign</span><span class="s2">(</span><span class="s4">CENTER</span><span class="s2">, </span><span class="s4">CENTER</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">text</span><span class="s2">(node.country, node.x </span><span class="s1">+</span><span class="s2"> node.width </span><span class="s1">/</span><span class="s2"> </span><span class="s4">2</span><span class="s2">, node.y </span><span class="s1">+</span><span class="s2"> node.height </span><span class="s1">/</span><span class="s2"> </span><span class="s4">2</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s3"> </span><span class="s2">handleMouseInteraction</span><span class="s3">() {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">let</span><span class="s2"> hoveredNode </span><span class="s1">=</span><span class="s2"> </span><span class="s1">getNodeAtMousePosition</span><span class="s2">();</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2"><i>// Podświetlenie węzła pod kursorem</i><i></i></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">for</span><span class="s2"> (</span><span class="s6">const</span><span class="s2"> node </span><span class="s6">of</span><span class="s2"> nodes) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s6">if</span><span class="s2"> (node </span><span class="s1">===</span><span class="s2"> hoveredNode) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s1">fill</span><span class="s2">(</span><span class="s4">255</span><span class="s2">, </span><span class="s4">255</span><span class="s2">, </span><span class="s4">0</span><span class="s2">, </span><span class="s4">100</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s1">rect</span><span class="s2">(node.x, node.y, node.width, node.height);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2"><i>// Wyświetlanie tooltipu</i><i></i></span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">if</span><span class="s2"> (hoveredNode) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">push</span><span class="s2">();</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">fill</span><span class="s2">(</span><span class="s4">255</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">rect</span><span class="s2">(mouseX </span><span class="s1">+</span><span class="s2"> </span><span class="s4">10</span><span class="s2">, mouseY </span><span class="s1">+</span><span class="s2"> </span><span class="s4">10</span><span class="s2">, </span><span class="s4">300</span><span class="s2">, </span><span class="s4">100</span><span class="s2">, </span><span class="s4">5</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">fill</span><span class="s2">(</span><span class="s4">0</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">text</span><span class="s2">(</span><span class="s7">`Kraj: </span><span class="s2">${hoveredNode.country}</span><span class="s7">`</span><span class="s2">, mouseX </span><span class="s1">+</span><span class="s2"> </span><span class="s4">20</span><span class="s2">, mouseY </span><span class="s1">+</span><span class="s2"> </span><span class="s4">30</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">text</span><span class="s2">(</span><span class="s7">`Całkowita emisja: </span><span class="s2">${hoveredNode.totalEmissions.</span><span class="s1">toLocaleString</span><span class="s2">()}</span><span class="s7"> ton`</span><span class="s2">, mouseX </span><span class="s1">+</span><span class="s2"> </span><span class="s4">20</span><span class="s2">, mouseY </span><span class="s1">+</span><span class="s2"> </span><span class="s4">50</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">text</span><span class="s2">(</span><span class="s7">`Emisja/mieszkańca: </span><span class="s2">${hoveredNode.emissionsPerCapita.</span><span class="s1">toFixed</span><span class="s2">(</span><span class="s4">1</span><span class="s2">)}</span><span class="s7"> ton`</span><span class="s2">, mouseX </span><span class="s1">+</span><span class="s2"> </span><span class="s4">20</span><span class="s2">, mouseY </span><span class="s1">+</span><span class="s2"> </span><span class="s4">70</span><span class="s2">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">pop</span><span class="s2">();</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s6">function</span><span class="s3"> </span><span class="s2">getNodeAtMousePosition</span><span class="s3">() {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s6">for</span><span class="s2"> (</span><span class="s6">const</span><span class="s2"> node </span><span class="s6">of</span><span class="s2"> nodes) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s6">if</span><span class="s2"> (</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>mouseX </span><span class="s1">&gt;</span><span class="s2"> node.x </span><span class="s1">&amp;&amp;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>mouseX </span><span class="s1">&lt;</span><span class="s2"> node.x </span><span class="s1">+</span><span class="s2"> node.width </span><span class="s1">&amp;&amp;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>mouseY </span><span class="s1">&gt;</span><span class="s2"> node.y </span><span class="s1">&amp;&amp;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span>mouseY </span><span class="s1">&lt;</span><span class="s2"> node.y </span><span class="s1">+</span><span class="s2"> node.height</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span>) {</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s6">return</span><span class="s2"> node;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s2">return</span><span class="s3"> </span><span class="s2">null</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">body</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">html</span><span class="s1">&gt;</span></p>
+</body>
+</html>
